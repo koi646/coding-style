@@ -74,3 +74,5 @@
         "comma-dangle": ["error", "never"], //数组,对象中最后一个元素之后的逗号
         "generator-star-spacing": ["error", "after"], //generator星号位置
         "valid-jsdoc": 1        //jsdoc
+    }
+}
