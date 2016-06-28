@@ -6,8 +6,15 @@
     },
     "extends": "eslint:recommended",
     "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },   //使用react时开启react语法提示
         "sourceType": "module"
     },
+    "plugins": [
+        "react"
+    ],    //使用react 需安装插件 eslint-plugin-react
     "rules": {
         "indent": [ //缩进两个空格
             "error",
