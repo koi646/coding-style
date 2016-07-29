@@ -2,7 +2,8 @@
     "env": {
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "es6": true,
+        "node": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -77,9 +78,10 @@
                 "before": true,
                 "after": false
             }
-         ],                     //yeild星号位置
+         ],                     //yeild位置
+        "require-yield": "off", //生成器必须含有yield
         "comma-dangle": ["error", "never"], //数组,对象中最后一个元素之后的逗号
-        "generator-star-spacing": ["error", "after"], //generator星号位置
+        "generator-star-spacing": ["error", "before"], //generator星号位置
         "valid-jsdoc": 1        //jsdoc
     }
 }
