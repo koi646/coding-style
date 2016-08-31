@@ -62,6 +62,13 @@
                 "after": true
             }
         ],                      //逗号后面有空格
+        "comma-style": [
+            "error",
+            "last",
+            "exceptions": {
+                "VariableDeclaration": true
+            }
+        ],
         "space-before-function-paren": [
             "error",
             "never"
