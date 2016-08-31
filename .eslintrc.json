@@ -65,8 +65,10 @@
         "comma-style": [
             "error",
             "last",
-            "exceptions": {
-                "VariableDeclaration": true
+            {
+                "exceptions": {
+                    "VariableDeclaration": true
+                }
             }
         ],
         "space-before-function-paren": [
