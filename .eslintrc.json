@@ -48,7 +48,6 @@
         "no-void": 2,           //禁用void
         "no-with": 2,           //禁用with
         "space-infix-ops": 2,   //操作符后有空格
-        "comma-style": ["error", "last"],   //数组,对象元素的逗号在同一行
         "space-in-parens": ["error", "never"], //
         "key-spacing": ["error", { "beforeColon": false }], //关键词前空格
         "array-bracket-spacing": [2, "never"],  //数组两侧[ ]无空格
